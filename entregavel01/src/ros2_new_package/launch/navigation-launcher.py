@@ -16,25 +16,19 @@ def generate_launch_description():
          get_package_share_directory('turtlebot3_gazebo'), 'launch'),
          '/turtlebot3_world.launch.py'])
          )
-   cartographer_ros2 = IncludeLaunchDescription(
-      PythonLaunchDescriptionSource([os.path.join(
-         get_package_share_directory('turtlebot3_cartographer'), 'launch'),
-         '/cartographer.launch.py']),
-         launch_arguments={'use_sim_time': 'True'}.items(),
-         )
-   teleop_turtlebot3 = ExecuteProcess(
-            condition=IfCondition(LaunchConfiguration('use_gnome_terminal')),
-            cmd=['gnome-terminal', '--', 'ros2', 'run', 'turtlebot3_teleop', 'teleop_keyboard'],
+#    navigator_ros2 = IncludeLaunchDescription(
+#       PythonLaunchDescriptionSource([os.path.join(
+#          get_package_share_directory('turtlebot3_navigation2'), 'launch'),
+#          '/navigation2.launch.py']),
+#          launch_arguments={'use_sim_time': 'True', 
+#                            'map': '~/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_new_package/launch/my-map.yaml'}.items(),
+#          )
+   navigator_ros2 = ExecuteProcess(
+            cmd=['gnome-terminal', '--', 'ros2', 'launch', 'turtlebot3_navigation2', 'navigation2.launch.py', 'use_sim_time:=True', 'map:=my-map.yaml'],
             output='screen'
         )
 
    return LaunchDescription([
       gazebo_world,
-      cartographer_ros2,
-      DeclareLaunchArgument(
-            'use_gnome_terminal',
-            default_value='true',
-            description='Use gnome_terminal to open a new terminal for the node'
-        ),
-      teleop_turtlebot3,
+      navigator_ros2,
    ])
