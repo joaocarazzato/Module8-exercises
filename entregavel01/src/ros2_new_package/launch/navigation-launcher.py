@@ -16,19 +16,19 @@ def generate_launch_description():
          get_package_share_directory('turtlebot3_gazebo'), 'launch'),
          '/turtlebot3_world.launch.py'])
          )
-#    navigator_ros2 = IncludeLaunchDescription(
-#       PythonLaunchDescriptionSource([os.path.join(
-#          get_package_share_directory('turtlebot3_navigation2'), 'launch'),
-#          '/navigation2.launch.py']),
-#          launch_arguments={'use_sim_time': 'True', 
-#                            'map': '~/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_new_package/launch/my-map.yaml'}.items(),
-#          )
    navigator_ros2 = ExecuteProcess(
-            cmd=['gnome-terminal', '--', 'ros2', 'launch', 'turtlebot3_navigation2', 'navigation2.launch.py', 'use_sim_time:=True', 'map:=my-map.yaml'],
+            cmd=['ros2', 'launch', 'turtlebot3_navigation2', 'navigation2.launch.py', 'use_sim_time:=True', 'map:=my-map.yaml'],
+            name='navigator_ros2',
             output='screen'
         )
+   initial_pose = ExecuteProcess(
+      cmd=['gnome-terminal', '--', 'python3', '../set_initial_pose_nav2.py'],
+      name='initial_pos_mapper',
+      output='screen'
+   )
 
    return LaunchDescription([
       gazebo_world,
       navigator_ros2,
+      initial_pose,
    ])
