@@ -1,0 +1,35 @@
+running egg_info
+creating build/ros2_entregavel01/ros2_entregavel01.egg-info
+writing build/ros2_entregavel01/ros2_entregavel01.egg-info/PKG-INFO
+writing dependency_links to build/ros2_entregavel01/ros2_entregavel01.egg-info/dependency_links.txt
+writing entry points to build/ros2_entregavel01/ros2_entregavel01.egg-info/entry_points.txt
+writing requirements to build/ros2_entregavel01/ros2_entregavel01.egg-info/requires.txt
+writing top-level names to build/ros2_entregavel01/ros2_entregavel01.egg-info/top_level.txt
+writing manifest file 'build/ros2_entregavel01/ros2_entregavel01.egg-info/SOURCES.txt'
+reading manifest file 'build/ros2_entregavel01/ros2_entregavel01.egg-info/SOURCES.txt'
+writing manifest file 'build/ros2_entregavel01/ros2_entregavel01.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build
+creating /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build/lib
+creating /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build/lib/ros2_entregavel01
+copying ros2_entregavel01/ola.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build/lib/ros2_entregavel01
+copying ros2_entregavel01/__init__.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build/lib/ros2_entregavel01
+running install
+running install_lib
+creating /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01
+copying /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build/lib/ros2_entregavel01/ola.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01
+copying /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build/lib/ros2_entregavel01/__init__.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01
+byte-compiling /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01/ola.py to ola.cpython-310.pyc
+byte-compiling /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ament_index
+creating /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ament_index/resource_index
+creating /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ament_index/resource_index/packages
+copying resource/ros2_entregavel01 -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ament_index/resource_index/packages
+copying package.xml -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ros2_entregavel01
+running install_egg_info
+Copying build/ros2_entregavel01/ros2_entregavel01.egg-info to /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teste script to /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/ros2_entregavel01
+writing list of installed files to '/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/install.log'

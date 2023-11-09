@@ -1,0 +1,5 @@
+[console_scripts]
+go_to_pose = ros2_entregavel01.nav2_go_to_pose:main
+set_initial_pose = ros2_entregavel01.set_initial_pose_nav2:main
+teste = ros2_entregavel01.ola:main
+

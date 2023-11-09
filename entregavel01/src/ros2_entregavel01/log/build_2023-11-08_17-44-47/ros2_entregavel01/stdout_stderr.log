@@ -1,0 +1,23 @@
+running egg_info
+writing build/ros2_entregavel01/ros2_entregavel01.egg-info/PKG-INFO
+writing dependency_links to build/ros2_entregavel01/ros2_entregavel01.egg-info/dependency_links.txt
+writing entry points to build/ros2_entregavel01/ros2_entregavel01.egg-info/entry_points.txt
+writing requirements to build/ros2_entregavel01/ros2_entregavel01.egg-info/requires.txt
+writing top-level names to build/ros2_entregavel01/ros2_entregavel01.egg-info/top_level.txt
+reading manifest file 'build/ros2_entregavel01/ros2_entregavel01.egg-info/SOURCES.txt'
+writing manifest file 'build/ros2_entregavel01/ros2_entregavel01.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ros2_entregavel01/launch
+copying launch/map-saver.launch.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ros2_entregavel01/launch
+copying launch/navigation-launcher.launch.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ros2_entregavel01/launch
+copying launch/mapping-launcher.launch.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/share/ros2_entregavel01/launch
+running install_egg_info
+removing '/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/ros2_entregavel01/ros2_entregavel01.egg-info to /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teste script to /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/ros2_entregavel01
+writing list of installed files to '/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/install.log'

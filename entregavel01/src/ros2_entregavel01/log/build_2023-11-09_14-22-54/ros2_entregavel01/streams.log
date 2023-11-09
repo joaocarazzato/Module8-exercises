@@ -1,0 +1,26 @@
+[0.710s] Invoking command in '/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01': PYTHONPATH=/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/prefix_override:/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_entregavel01 build --build-base /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build install --record /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/install.log --single-version-externally-managed
+[0.902s] running egg_info
+[0.902s] writing build/ros2_entregavel01/ros2_entregavel01.egg-info/PKG-INFO
+[0.902s] writing dependency_links to build/ros2_entregavel01/ros2_entregavel01.egg-info/dependency_links.txt
+[0.902s] writing entry points to build/ros2_entregavel01/ros2_entregavel01.egg-info/entry_points.txt
+[0.902s] writing requirements to build/ros2_entregavel01/ros2_entregavel01.egg-info/requires.txt
+[0.902s] writing top-level names to build/ros2_entregavel01/ros2_entregavel01.egg-info/top_level.txt
+[0.904s] reading manifest file 'build/ros2_entregavel01/ros2_entregavel01.egg-info/SOURCES.txt'
+[0.911s] writing manifest file 'build/ros2_entregavel01/ros2_entregavel01.egg-info/SOURCES.txt'
+[0.911s] running build
+[0.911s] running build_py
+[0.911s] copying ros2_entregavel01/nav2_go_to_pose.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build/lib/ros2_entregavel01
+[0.911s] running install
+[0.911s] running install_lib
+[0.911s] copying /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build/lib/ros2_entregavel01/nav2_go_to_pose.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01
+[0.912s] byte-compiling /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01/nav2_go_to_pose.py to nav2_go_to_pose.cpython-310.pyc
+[0.912s] running install_data
+[0.913s] running install_egg_info
+[0.914s] removing '/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01-0.0.0-py3.10.egg-info' (and everything under it)
+[0.914s] Copying build/ros2_entregavel01/ros2_entregavel01.egg-info to /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages/ros2_entregavel01-0.0.0-py3.10.egg-info
+[0.915s] running install_scripts
+[0.931s] Installing go_to_pose script to /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/ros2_entregavel01
+[0.932s] Installing set_initial_pose script to /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/ros2_entregavel01
+[0.932s] Installing teste script to /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/ros2_entregavel01
+[0.932s] writing list of installed files to '/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/install.log'
+[0.956s] Invoked command in '/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01' returned '0': PYTHONPATH=/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/prefix_override:/home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install/ros2_entregavel01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_entregavel01 build --build-base /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/build install --record /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/build/ros2_entregavel01/install.log --single-version-externally-managed
