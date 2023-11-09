@@ -1,3 +1,0 @@
-[console_scripts]
-teste = ros2_pkg_entregavel.teste:main
-
