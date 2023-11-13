@@ -1,0 +1,91 @@
+[0.862s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.863s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0172c8b340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0172c5ebc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0172c5ebc0>>)
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.903s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.916s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'ros2_entregavel2'
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.026s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install
+[1.038s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/joao/Documents/GitHub/Module8-exercises/entregavel01/src/ros2_entregavel01/install
+[1.052s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[1.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'cmake_target' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'cmake_clean_first' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'cmake_force_configure' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'ament_cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'ros2_entregavel2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.155s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_entregavel2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2', 'merge_install': False, 'path': '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2', 'symlink_install': False, 'test_result_base': None}
+[1.167s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.179s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2' with build type 'ament_python'
+[1.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_entregavel2', 'ament_prefix_path')
+[1.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/hook/ament_prefix_path.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/hook/ament_prefix_path.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/hook/ament_prefix_path.sh'
+[1.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.487s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2'
+[1.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2': PYTHONPATH=/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/prefix_override:/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_entregavel2 build --build-base /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build install --record /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/install.log --single-version-externally-managed
+[2.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2' returned '0': PYTHONPATH=/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/prefix_override:/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_entregavel2 build --build-base /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build install --record /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/install.log --single-version-externally-managed
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2' for CMake module files
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2' for CMake config files
+[2.133s] Level 1:colcon.colcon_core.environment:checking '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib'
+[2.133s] Level 1:colcon.colcon_core.environment:checking '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/bin'
+[2.133s] Level 1:colcon.colcon_core.environment:checking '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/pkgconfig/ros2_entregavel2.pc'
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages'
+[2.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_entregavel2', 'pythonpath')
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/hook/pythonpath.ps1'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/hook/pythonpath.dsv'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/hook/pythonpath.sh'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/bin'
+[2.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_entregavel2)
+[2.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/package.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/package.dsv'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/package.sh'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/package.bash'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2/package.zsh'
+[2.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/colcon-core/packages/ros2_entregavel2)
+[2.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.163s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.193s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.211s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.227s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/local_setup.ps1'
+[2.227s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/_local_setup_util_ps1.py'
+[2.228s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/setup.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/local_setup.sh'
+[2.243s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/_local_setup_util_sh.py'
+[2.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/setup.sh'
+[2.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/local_setup.bash'
+[2.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/setup.bash'
+[2.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/local_setup.zsh'
+[2.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/setup.zsh'

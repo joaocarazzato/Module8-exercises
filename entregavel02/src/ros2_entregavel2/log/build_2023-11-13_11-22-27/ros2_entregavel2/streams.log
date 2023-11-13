@@ -1,0 +1,39 @@
+[0.733s] Invoking command in '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2': PYTHONPATH=/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/prefix_override:/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_entregavel2 build --build-base /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build install --record /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/install.log --single-version-externally-managed
+[0.935s] running egg_info
+[0.936s] creating build/ros2_entregavel2/ros2_entregavel2.egg-info
+[0.936s] writing build/ros2_entregavel2/ros2_entregavel2.egg-info/PKG-INFO
+[0.936s] writing dependency_links to build/ros2_entregavel2/ros2_entregavel2.egg-info/dependency_links.txt
+[0.936s] writing entry points to build/ros2_entregavel2/ros2_entregavel2.egg-info/entry_points.txt
+[0.936s] writing requirements to build/ros2_entregavel2/ros2_entregavel2.egg-info/requires.txt
+[0.937s] writing top-level names to build/ros2_entregavel2/ros2_entregavel2.egg-info/top_level.txt
+[0.937s] writing manifest file 'build/ros2_entregavel2/ros2_entregavel2.egg-info/SOURCES.txt'
+[0.938s] reading manifest file 'build/ros2_entregavel2/ros2_entregavel2.egg-info/SOURCES.txt'
+[0.938s] writing manifest file 'build/ros2_entregavel2/ros2_entregavel2.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.939s] running build_py
+[0.939s] creating /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build
+[0.939s] creating /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build/lib
+[0.939s] creating /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build/lib/ros2_entregavel2
+[0.939s] copying ros2_entregavel2/__init__.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build/lib/ros2_entregavel2
+[0.939s] copying ros2_entregavel2/actions.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build/lib/ros2_entregavel2
+[0.939s] copying ros2_entregavel2/chatbot.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build/lib/ros2_entregavel2
+[0.940s] running install
+[0.940s] running install_lib
+[0.940s] creating /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages/ros2_entregavel2
+[0.940s] copying /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build/lib/ros2_entregavel2/__init__.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages/ros2_entregavel2
+[0.940s] copying /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build/lib/ros2_entregavel2/actions.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages/ros2_entregavel2
+[0.940s] copying /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build/lib/ros2_entregavel2/chatbot.py -> /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages/ros2_entregavel2
+[0.941s] byte-compiling /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages/ros2_entregavel2/__init__.py to __init__.cpython-310.pyc
+[0.941s] byte-compiling /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages/ros2_entregavel2/actions.py to actions.cpython-310.pyc
+[0.941s] byte-compiling /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages/ros2_entregavel2/chatbot.py to chatbot.cpython-310.pyc
+[0.941s] running install_data
+[0.942s] creating /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ament_index
+[0.942s] creating /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ament_index/resource_index
+[0.942s] creating /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ament_index/resource_index/packages
+[0.942s] copying resource/ros2_entregavel2 -> /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ament_index/resource_index/packages
+[0.942s] copying package.xml -> /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/share/ros2_entregavel2
+[0.942s] running install_egg_info
+[0.943s] Copying build/ros2_entregavel2/ros2_entregavel2.egg-info to /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages/ros2_entregavel2-0.0.0-py3.10.egg-info
+[0.944s] running install_scripts
+[0.960s] writing list of installed files to '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/install.log'
+[0.987s] Invoked command in '/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2' returned '0': PYTHONPATH=/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/prefix_override:/home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/install/ros2_entregavel2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_entregavel2 build --build-base /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/build install --record /home/joao/Documents/GitHub/Module8-exercises/entregavel02/src/ros2_entregavel2/build/ros2_entregavel2/install.log --single-version-externally-managed

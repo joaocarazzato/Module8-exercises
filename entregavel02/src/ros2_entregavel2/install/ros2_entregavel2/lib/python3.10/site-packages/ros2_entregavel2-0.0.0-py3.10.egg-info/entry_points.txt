@@ -1,0 +1,3 @@
+[console_scripts]
+rule-based = ros2_entregavel2.chatbot:main
+
