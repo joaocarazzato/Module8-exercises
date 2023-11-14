@@ -14,7 +14,7 @@ def main():
             print("Ação detectada")
             print(f"{point[0][0]} {point[0][1]}")
             function(point[0][1])
-            break
+            return
 
 if __name__ == "__main__":
     main()

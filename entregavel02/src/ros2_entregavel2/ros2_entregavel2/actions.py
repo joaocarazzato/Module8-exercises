@@ -5,7 +5,9 @@ from tf_transformations import quaternion_from_euler
 from math import pi
 
 point_dict = {
-        "ponto 1": [2.0, 2.0, 1.0]
+        "ponto 1": [2.0, 2.0, 0.0],
+        "ponto 2": [2.0, 0.0, 0.0],
+        "ponto 3": [0.0, 2.0, 0.0]
         }
 
 def pose(pose_x, pose_y, pose_z):
