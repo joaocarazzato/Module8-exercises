@@ -14,7 +14,7 @@ Após isso, seu pacote estará pronto para uso! Com ele, você terá acesso a um
 
 **Para iniciar o nó, é necessário utilizar o seguinte comando:**
 ```
-ros2 run ros2_entregavel01 rule-based
+ros2 run ros2_entregavel2 rule-based
 ```
 
 (Importante ressaltar que o comando citado não vai funcionar caso você não tenha iniciado o pacote com o comando de source)
