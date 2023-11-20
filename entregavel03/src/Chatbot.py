@@ -2,7 +2,6 @@ import gradio as gr
 from langchain.llms import Ollama
 import requests
 import json
-import time
 
 def send_request(question):
     url = "http://localhost:11434/api/generate"
