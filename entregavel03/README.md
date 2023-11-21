@@ -1,5 +1,7 @@
 # Chatbot com LLM
-O repositório tem por objetivo apresentar uma solução de um Chatbot utilizando LLM, mais precisamente o modelo Dolphin disponibilizado no projeto open-source **Ollama**. O chatbot disponibilizado aquui, por sua vez, responde somente sobre medidas de segurança em ambientes industriais, qualquer pergunta fora disso não é respondida pelo mesmo.
+**(Como dito ao professor sobre a entrega, não foi possível utilizar o Langchain por problemas de instalação cujo solução não foi encontrada. Para a substituição, foi criada uma função com a biblioteca requests do Python).**
+
+O repositório tem por objetivo apresentar uma solução de um Chatbot utilizando LLM, mais precisamente o modelo Dolphin disponibilizado no projeto open-source **Ollama**. O chatbot disponibilizado aqui, por sua vez, responde somente sobre medidas de segurança em ambientes industriais, qualquer pergunta fora disso não é respondida pelo mesmo.
 
 
 https://github.com/joaocarazzato/Module8-exercises/assets/99187756/29cf24fa-c766-4526-b8af-0babe71881f3
