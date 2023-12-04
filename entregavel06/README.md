@@ -1,7 +1,9 @@
 # Classificação MNIST através de uma rede neural convolucional
 O objetivo desse repositório é a criação de uma rede neural convolucional para classificar o dataset MNIST de classificação de números de 0 a 9.
 
-[video]
+
+https://github.com/joaocarazzato/Module8-exercises/assets/99187756/6f2c8598-6166-4aa7-9efa-7ffd03ba6e80
+
 
 ## Como funciona?
 O notebook é composto de 3 células de código, a primeira sendo carregando o dataset e o dividindo nas variáveis necessárias, o segundo montando as camadas da rede e compilando o modelo da rede neural convolucional, e a terceira treinando o modelo.
